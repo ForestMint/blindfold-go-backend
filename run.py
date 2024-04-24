@@ -3,10 +3,6 @@ from flask import Flask
 from GameManager import GameManager
 
 
-import configparser
-config = configparser.ConfigParser()
-config.read('config.ini')
-
 import sys
 sys.path.append('./python_classes')
 
