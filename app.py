@@ -1,14 +1,13 @@
-from flask import Flask
-
-from GameManager import GameManager
 
 
 
 import sys
 sys.path.append('./python_classes')
 
-import os
+from PoolOfGames import PoolOfGames
+my_pool_of_games=PoolOfGames()
 
+from flask import Flask, request
 app = Flask(__name__)
 
 @app.route('/')
@@ -29,7 +28,11 @@ def submit_move():
 
 @app.route('/create_game')
 def create_game():
-    return "f08-751"
+    size = request.args.get('size')
+    handicap = request.args.get('handicap')
+    komi = request.args.get('komi')
+    #return str(my_pool_of_games.create_game(size,handicap,komi))
+    return {"game_id":my_pool_of_games.create_game(size,handicap,komi)}
 
 if __name__ == "__main__":
     app.run()
