@@ -16,9 +16,19 @@ class GameManager():
     
     def is_game_over(self):
         return False
+    
+    def pss(self):
+        self.game.pss()
+        print(self.game)
+        sgf.dump(self.game, "./games/my_game.sgf")
 
     def undo(self):
         self.game.step_up()
+        print(self.game)
+        sgf.dump(self.game, "./games/my_game.sgf")
+
+    def resign(self):
+        self.game.resign()
         print(self.game)
         sgf.dump(self.game, "./games/my_game.sgf")
     

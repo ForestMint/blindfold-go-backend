@@ -34,7 +34,15 @@ def undo():
 
 @app.route('/resign')
 def resign():
+    game_manager_uuid = request.args.get('game_manager_uuid')
+    my_pool_of_game_managers.get_game_manager(game_manager_uuid)['game_manager'].resign()
     return "Thanks for the game !"
+
+@app.route('/pass')
+def pass_turn():
+    game_manager_uuid = request.args.get('game_manager_uuid')
+    my_pool_of_game_managers.get_game_manager(game_manager_uuid)['game_manager'].pss()
+    return "You passed."
 
 @app.route('/play_move')
 def play_move():
@@ -45,11 +53,7 @@ def play_move():
 
     return "Well done !"
 
-'''
-@app.route('/submit_move')
-def submit_move():
-    return "Well done !"
-'''
+
 
 @app.route('/request_ply_from_engine')
 def request_ply_from_engine():
@@ -78,32 +82,6 @@ def is_move():
     
     return my_pool_of_game_managers.get_game_manager(game_manager_uuid)['game_manager'].is_move(candidate_speech)
     
-
-    '''
-    logging.info(candidate_speech)
-
-    try:
-
-        list_of_abscissae=list(string.ascii_uppercase)
-        list_of_abscissae.remove("I")
-        abscissa=list_of_abscissae.index(candidate_speech.upper()[:1])+1
-        ordinate=int(candidate_speech[1:])
-        
-        print('This is error output')
-        print('This is error output', file=sys.stderr)
-        print('This is standard output', file=sys.stdout)
-
-        logging.info('coordinates :'+str({"abscissa":abscissa, "ordinate":ordinate}))
-        #print({"abscissa":abscissa, "ordinate":ordinate})
-        my_pool_of_game_managers.get_game_manager(game_id).game.play(abscissa,ordinate)
-        my_pool_of_game_managers.get_game_manager(game_id).game.step_up()
-        #print(my_pool_of_game_managers.get_game_manager(game_id))
-        return {"result":True}
-    except:
-        #print(my_pool_of_game_managers.get_game(game_id))
-        return {"result":False}
-
-    '''
     
 
 if __name__ == "__main__":
