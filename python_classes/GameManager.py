@@ -51,7 +51,8 @@ class GameManager():
     
 
         
-
+    def is_game_over(self):
+        return self.game.is_over()
 
     def play_move(self, move):
         

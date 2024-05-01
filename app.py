@@ -53,7 +53,13 @@ def play_move():
 
     return "Well done !"
 
+@app.route('/is_game_over')
+def is_game_over():
+    game_manager_uuid = request.args.get('game_manager_uuid')
 
+    
+
+    return {"result":my_pool_of_game_managers.get_game_manager(game_manager_uuid)['game_manager'].is_game_over()}
 
 @app.route('/request_ply_from_engine')
 def request_ply_from_engine():

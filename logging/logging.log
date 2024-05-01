@@ -1781,3 +1781,56 @@ INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:44:00] "[33mGET /request_ply_from_e
 INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:44:00] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:44:00] "GET /is_move?game_manager_uuid=0f0becf1-07f3-11ef-b790-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:44:35] "GET /is_move?game_manager_uuid=0f0becf1-07f3-11ef-b790-0045e22171ca&candidate_speech=pause HTTP/1.1" 200 -
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:12:43] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:12:44] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:12:44] "GET /is_game_over?game_manager_uuid=2b680c83-07f7-11ef-bd69-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:12:44] "GET /is_move?game_manager_uuid=2b680c83-07f7-11ef-bd69-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:12:55] "GET /is_move?game_manager_uuid=2b680c83-07f7-11ef-bd69-0045e22171ca&candidate_speech=do+you+want HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:12:58] "GET /is_move?game_manager_uuid=2b680c83-07f7-11ef-bd69-0045e22171ca&candidate_speech=D1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:12:58] "GET /play_move?game_manager_uuid=2b680c83-07f7-11ef-bd69-0045e22171ca&move=D1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:12:58] "GET /is_game_over?game_manager_uuid=2b680c83-07f7-11ef-bd69-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:12:58] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:12:58] "GET /is_game_over?game_manager_uuid=2b680c83-07f7-11ef-bd69-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:12:58] "GET /is_move?game_manager_uuid=2b680c83-07f7-11ef-bd69-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:13:04] "GET /is_move?game_manager_uuid=2b680c83-07f7-11ef-bd69-0045e22171ca&candidate_speech=resign HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:13:04] "GET /resign?game_manager_uuid=2b680c83-07f7-11ef-bd69-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:13:04] "GET /is_game_over?game_manager_uuid=2b680c83-07f7-11ef-bd69-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:13:09] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:13:10] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:13:10] "GET /is_game_over?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:13:10] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:13:22] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech=D1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:13:22] "GET /play_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&move=D1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:13:22] "GET /is_game_over?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:13:22] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:13:22] "GET /is_game_over?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:13:22] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:13:26] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech=pause HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:13:29] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:13:34] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech=pause HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:13:58] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:14:01] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech=pause HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:14:13] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:14:17] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech=pass HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:14:17] "GET /pass?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:14:17] "GET /is_game_over?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:14:17] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:14:17] "GET /is_game_over?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:14:17] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:14:21] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:14:26] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:14:30] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech=pause HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:14:34] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech=pause HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:14:38] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech=pause HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:14:45] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:14:53] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech=pause HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:15:05] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech=pause HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:15:58] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech=pause HTTP/1.1" 200 -
