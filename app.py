@@ -28,8 +28,8 @@ ply_picking_engine_port = config['PLY_PICKING_ENGINE']['port']
 
 @app.route('/request_undo')
 def undo():
-    game_uuid = request.args.get('game_uuid')
-    my_pool_of_game_managers.dict_of_games[game_uuid].step_up()
+    game_manager_uuid = request.args.get('game_manager_uuid')
+    my_pool_of_game_managers.get_game_manager(game_manager_uuid)['game_manager'].undo()
     return "Undo granted !"
 
 @app.route('/resign')

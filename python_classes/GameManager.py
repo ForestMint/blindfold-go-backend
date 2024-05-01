@@ -16,6 +16,11 @@ class GameManager():
     
     def is_game_over(self):
         return False
+
+    def undo(self):
+        self.game.step_up()
+        print(self.game)
+        sgf.dump(self.game, "./games/my_game.sgf")
     
     def is_move(self,candidate_speech):
 
@@ -27,9 +32,9 @@ class GameManager():
         for abscissa in list_of_abscissae:
             for ordinate in list_of_ordinates:
                 list_of_existing_moves.append(abscissa+str(ordinate))
-        list_of_existing_moves.append("pass")
-        list_of_existing_moves.append("resign")
-        list_of_existing_moves.append("undo")
+        list_of_existing_moves.append("PASS")
+        list_of_existing_moves.append("RESIGN")
+        list_of_existing_moves.append("UNDO")
 
 
         return {"result":candidate_speech.upper() in list_of_existing_moves}

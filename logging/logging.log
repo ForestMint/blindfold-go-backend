@@ -1257,3 +1257,252 @@ INFO:werkzeug:127.0.0.1 - - [01/May/2024 20:55:11] "[33mGET /request_ply_from_e
 INFO:werkzeug:127.0.0.1 - - [01/May/2024 20:55:11] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [01/May/2024 20:55:11] "GET /is_move?game_manager_uuid=39b19fc1-07ec-11ef-896c-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [01/May/2024 20:55:16] "GET /is_move?game_manager_uuid=39b19fc1-07ec-11ef-896c-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:03:30] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:03:31] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:03:31] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:03:31] "GET /is_move?game_manager_uuid=7fe65898-07ed-11ef-b140-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:03:51] "GET /is_move?game_manager_uuid=7fe65898-07ed-11ef-b140-0045e22171ca&candidate_speech=C4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:03:51] "GET /play_move?game_manager_uuid=7fe65898-07ed-11ef-b140-0045e22171ca&move=C4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:03:51] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:03:51] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:03:51] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:03:51] "GET /is_move?game_manager_uuid=7fe65898-07ed-11ef-b140-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:03:55] "GET /is_move?game_manager_uuid=7fe65898-07ed-11ef-b140-0045e22171ca&candidate_speech=undo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:03:59] "GET /is_move?game_manager_uuid=7fe65898-07ed-11ef-b140-0045e22171ca&candidate_speech=undo HTTP/1.1" 200 -
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:30] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:31] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:31] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:31] "GET /is_move?game_manager_uuid=eb01f94b-07ed-11ef-a388-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:34] "GET /is_move?game_manager_uuid=eb01f94b-07ed-11ef-a388-0045e22171ca&candidate_speech=volume+five HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:37] "GET /is_move?game_manager_uuid=eb01f94b-07ed-11ef-a388-0045e22171ca&candidate_speech=Q5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:37] "GET /play_move?game_manager_uuid=eb01f94b-07ed-11ef-a388-0045e22171ca&move=Q5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:37] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:37] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:37] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:37] "GET /is_move?game_manager_uuid=eb01f94b-07ed-11ef-a388-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:41] "GET /is_move?game_manager_uuid=eb01f94b-07ed-11ef-a388-0045e22171ca&candidate_speech=q6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:41] "GET /play_move?game_manager_uuid=eb01f94b-07ed-11ef-a388-0045e22171ca&move=q6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:41] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:41] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:41] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:41] "GET /is_move?game_manager_uuid=eb01f94b-07ed-11ef-a388-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:48] "GET /is_move?game_manager_uuid=eb01f94b-07ed-11ef-a388-0045e22171ca&candidate_speech=Q7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:48] "GET /play_move?game_manager_uuid=eb01f94b-07ed-11ef-a388-0045e22171ca&move=Q7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:48] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:48] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:48] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:48] "GET /is_move?game_manager_uuid=eb01f94b-07ed-11ef-a388-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:51] "GET /is_move?game_manager_uuid=eb01f94b-07ed-11ef-a388-0045e22171ca&candidate_speech=undo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:06:56] "GET /is_move?game_manager_uuid=eb01f94b-07ed-11ef-a388-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:07:00] "GET /is_move?game_manager_uuid=eb01f94b-07ed-11ef-a388-0045e22171ca&candidate_speech=undo HTTP/1.1" 200 -
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:08] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:09] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:09] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:09] "GET /is_move?game_manager_uuid=257c1082-07ee-11ef-9204-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:15] "GET /is_move?game_manager_uuid=257c1082-07ee-11ef-9204-0045e22171ca&candidate_speech=Q5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:15] "GET /play_move?game_manager_uuid=257c1082-07ee-11ef-9204-0045e22171ca&move=Q5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:15] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:15] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:15] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:15] "GET /is_move?game_manager_uuid=257c1082-07ee-11ef-9204-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:22] "GET /is_move?game_manager_uuid=257c1082-07ee-11ef-9204-0045e22171ca&candidate_speech=q6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:22] "GET /play_move?game_manager_uuid=257c1082-07ee-11ef-9204-0045e22171ca&move=q6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:22] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:22] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:22] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:22] "GET /is_move?game_manager_uuid=257c1082-07ee-11ef-9204-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:26] "GET /is_move?game_manager_uuid=257c1082-07ee-11ef-9204-0045e22171ca&candidate_speech=Q7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:26] "GET /play_move?game_manager_uuid=257c1082-07ee-11ef-9204-0045e22171ca&move=Q7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:26] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:26] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:26] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:26] "GET /is_move?game_manager_uuid=257c1082-07ee-11ef-9204-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:30] "GET /is_move?game_manager_uuid=257c1082-07ee-11ef-9204-0045e22171ca&candidate_speech=undo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:35] "GET /is_move?game_manager_uuid=257c1082-07ee-11ef-9204-0045e22171ca&candidate_speech=undo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:08:39] "GET /is_move?game_manager_uuid=257c1082-07ee-11ef-9204-0045e22171ca&candidate_speech=undo HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Nom\\Desktop\\blindfold-go-backend\\python_classes\\GameManager.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:10:32] "[35m[1mGET /is_move?game_manager_uuid=257c1082-07ee-11ef-9204-0045e22171ca&candidate_speech= HTTP/1.1[0m" 500 -
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:19] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:20] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:20] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:20] "GET /is_move?game_manager_uuid=9771c6ff-07ee-11ef-b293-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:23] "GET /is_move?game_manager_uuid=9771c6ff-07ee-11ef-b293-0045e22171ca&candidate_speech=who+won HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:30] "GET /is_move?game_manager_uuid=9771c6ff-07ee-11ef-b293-0045e22171ca&candidate_speech=G1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:30] "GET /play_move?game_manager_uuid=9771c6ff-07ee-11ef-b293-0045e22171ca&move=G1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:30] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:30] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:30] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:30] "GET /is_move?game_manager_uuid=9771c6ff-07ee-11ef-b293-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:35] "GET /is_move?game_manager_uuid=9771c6ff-07ee-11ef-b293-0045e22171ca&candidate_speech=undo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:39] "GET /is_move?game_manager_uuid=9771c6ff-07ee-11ef-b293-0045e22171ca&candidate_speech=undo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:46] "GET /is_move?game_manager_uuid=9771c6ff-07ee-11ef-b293-0045e22171ca&candidate_speech=G1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:46] "[35m[1mGET /play_move?game_manager_uuid=9771c6ff-07ee-11ef-b293-0045e22171ca&move=G1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:46] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:46] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:46] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:46] "GET /is_move?game_manager_uuid=9771c6ff-07ee-11ef-b293-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:57] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:58] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:58] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:11:58] "GET /is_move?game_manager_uuid=ae266541-07ee-11ef-b135-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:02] "GET /is_move?game_manager_uuid=ae266541-07ee-11ef-b135-0045e22171ca&candidate_speech=D1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:02] "GET /play_move?game_manager_uuid=ae266541-07ee-11ef-b135-0045e22171ca&move=D1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:02] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:02] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:02] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:02] "GET /is_move?game_manager_uuid=ae266541-07ee-11ef-b135-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:08] "GET /is_move?game_manager_uuid=ae266541-07ee-11ef-b135-0045e22171ca&candidate_speech=A4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:08] "GET /play_move?game_manager_uuid=ae266541-07ee-11ef-b135-0045e22171ca&move=A4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:08] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:08] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:08] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:08] "GET /is_move?game_manager_uuid=ae266541-07ee-11ef-b135-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:13] "GET /is_move?game_manager_uuid=ae266541-07ee-11ef-b135-0045e22171ca&candidate_speech=undo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:16] "GET /is_move?game_manager_uuid=ae266541-07ee-11ef-b135-0045e22171ca&candidate_speech=A7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:16] "GET /play_move?game_manager_uuid=ae266541-07ee-11ef-b135-0045e22171ca&move=A7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:16] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:16] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:16] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:16] "GET /is_move?game_manager_uuid=ae266541-07ee-11ef-b135-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:21] "GET /is_move?game_manager_uuid=ae266541-07ee-11ef-b135-0045e22171ca&candidate_speech=A8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:21] "GET /play_move?game_manager_uuid=ae266541-07ee-11ef-b135-0045e22171ca&move=A8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:21] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:21] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:21] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:21] "GET /is_move?game_manager_uuid=ae266541-07ee-11ef-b135-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:24] "GET /is_move?game_manager_uuid=ae266541-07ee-11ef-b135-0045e22171ca&candidate_speech=undo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:28] "GET /is_move?game_manager_uuid=ae266541-07ee-11ef-b135-0045e22171ca&candidate_speech=A9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:28] "GET /play_move?game_manager_uuid=ae266541-07ee-11ef-b135-0045e22171ca&move=A9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:28] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:28] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:28] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:12:28] "GET /is_move?game_manager_uuid=ae266541-07ee-11ef-b135-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:30] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:31] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:31] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:31] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:37] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech=A1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:37] "GET /play_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&move=A1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:37] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:37] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:37] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:37] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:40] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech=A4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:40] "GET /play_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&move=A4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:40] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:40] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:40] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:40] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:47] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech=a HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:51] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech=A6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:51] "GET /play_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&move=A6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:51] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:51] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:51] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:51] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:54] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech=undo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:54] "GET /request_undo?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:54] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:54] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:54] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:54] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:58] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech=A7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:58] "GET /play_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&move=A7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:58] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:58] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:58] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:13:58] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:01] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech=undo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:01] "GET /request_undo?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:01] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:01] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:01] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:02] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:09] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech=A6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:09] "GET /play_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&move=A6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:09] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:10] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:10] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:10] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:13] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech=undo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:13] "GET /request_undo?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:13] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:13] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:13] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:13] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:19] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech=A6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:19] "GET /play_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&move=A6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:19] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:19] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:19] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:19] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:26] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech=undo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:26] "GET /request_undo?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:26] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:26] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:26] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:26] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:33] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech=A6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:33] "GET /play_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&move=A6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:33] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:33] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:33] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:33] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:38] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech=undo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:38] "GET /request_undo?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:38] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:38] "[33mGET /request_ply_from_engine/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:38] "[33mGET /is_game_over/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/May/2024 21:14:38] "GET /is_move?game_manager_uuid=e5708475-07ee-11ef-9dfd-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
