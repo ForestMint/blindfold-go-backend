@@ -1834,3 +1834,307 @@ INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:14:45] "GET /is_move?game_manager_uu
 INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:14:53] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech=pause HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:15:05] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech=pause HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [01/May/2024 22:15:58] "GET /is_move?game_manager_uuid=3ada4e80-07f7-11ef-83e3-0045e22171ca&candidate_speech=pause HTTP/1.1" 200 -
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:11:56] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:11:57] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:11:57] "GET /is_game_over?game_manager_uuid=1d130d5f-083a-11ef-9b00-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:11:57] "GET /is_move?game_manager_uuid=1d130d5f-083a-11ef-9b00-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:12:17] "GET /is_move?game_manager_uuid=1d130d5f-083a-11ef-9b00-0045e22171ca&candidate_speech=C4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:12:17] "GET /play_move?game_manager_uuid=1d130d5f-083a-11ef-9b00-0045e22171ca&move=C4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:12:17] "GET /is_game_over?game_manager_uuid=1d130d5f-083a-11ef-9b00-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:12:17] "[35m[1mGET /request_ply_from_engine?game_manager_uuid=1d130d5f-083a-11ef-9b00-0045e22171ca HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Nom\\Desktop\\blindfold-go-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug: * Detected change in 'C:\\Users\\Nom\\Desktop\\blindfold-go-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug: * Detected change in 'C:\\Users\\Nom\\Desktop\\blindfold-go-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:14:06] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:14:07] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:14:07] "GET /is_game_over?game_manager_uuid=6aa3465c-083a-11ef-926f-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:14:07] "GET /is_move?game_manager_uuid=6aa3465c-083a-11ef-926f-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:14:14] "GET /is_move?game_manager_uuid=6aa3465c-083a-11ef-926f-0045e22171ca&candidate_speech=C4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:14:14] "GET /play_move?game_manager_uuid=6aa3465c-083a-11ef-926f-0045e22171ca&move=C4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:14:14] "GET /is_game_over?game_manager_uuid=6aa3465c-083a-11ef-926f-0045e22171ca HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): %22127.0.0.1%22%2212345%22:443
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:14:14] "[35m[1mGET /request_ply_from_engine?game_manager_uuid=6aa3465c-083a-11ef-926f-0045e22171ca HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Nom\\Desktop\\blindfold-go-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:15:26] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:15:27] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:15:27] "GET /is_game_over?game_manager_uuid=9a5c8c76-083a-11ef-98a0-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:15:27] "GET /is_move?game_manager_uuid=9a5c8c76-083a-11ef-98a0-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:15:29] "GET /is_move?game_manager_uuid=9a5c8c76-083a-11ef-98a0-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:15:35] "GET /is_move?game_manager_uuid=9a5c8c76-083a-11ef-98a0-0045e22171ca&candidate_speech=C4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:15:35] "GET /play_move?game_manager_uuid=9a5c8c76-083a-11ef-98a0-0045e22171ca&move=C4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:15:35] "GET /is_game_over?game_manager_uuid=9a5c8c76-083a-11ef-98a0-0045e22171ca HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): %22127.0.0.1%22%2212345%22:443
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:15:35] "[35m[1mGET /request_ply_from_engine?game_manager_uuid=9a5c8c76-083a-11ef-98a0-0045e22171ca HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Nom\\Desktop\\blindfold-go-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:16:47] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:16:47] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:16:47] "GET /is_game_over?game_manager_uuid=ca918a3e-083a-11ef-9066-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:16:47] "GET /is_move?game_manager_uuid=ca918a3e-083a-11ef-9066-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:16:52] "GET /is_move?game_manager_uuid=ca918a3e-083a-11ef-9066-0045e22171ca&candidate_speech=C4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:16:52] "GET /play_move?game_manager_uuid=ca918a3e-083a-11ef-9066-0045e22171ca&move=C4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:16:52] "GET /is_game_over?game_manager_uuid=ca918a3e-083a-11ef-9066-0045e22171ca HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 127.0.0.1:12345
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:16:54] "[35m[1mGET /request_ply_from_engine?game_manager_uuid=ca918a3e-083a-11ef-9066-0045e22171ca HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Nom\\Desktop\\blindfold-go-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:19:40] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:19:41] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:19:41] "GET /is_game_over?game_manager_uuid=31b48cc2-083b-11ef-90a7-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:19:41] "GET /is_move?game_manager_uuid=31b48cc2-083b-11ef-90a7-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:19:44] "GET /is_move?game_manager_uuid=31b48cc2-083b-11ef-90a7-0045e22171ca&candidate_speech=C4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:19:44] "GET /play_move?game_manager_uuid=31b48cc2-083b-11ef-90a7-0045e22171ca&move=C4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:19:44] "GET /is_game_over?game_manager_uuid=31b48cc2-083b-11ef-90a7-0045e22171ca HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 127.0.0.1:5001
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:19:46] "[35m[1mGET /request_ply_from_engine?game_manager_uuid=31b48cc2-083b-11ef-90a7-0045e22171ca HTTP/1.1[0m" 500 -
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:22:11] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:22:12] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:22:12] "GET /is_game_over?game_manager_uuid=8c0ffae9-083b-11ef-8047-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:22:12] "GET /is_move?game_manager_uuid=8c0ffae9-083b-11ef-8047-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:22:19] "GET /is_move?game_manager_uuid=8c0ffae9-083b-11ef-8047-0045e22171ca&candidate_speech=C4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:22:19] "GET /play_move?game_manager_uuid=8c0ffae9-083b-11ef-8047-0045e22171ca&move=C4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:22:19] "GET /is_game_over?game_manager_uuid=8c0ffae9-083b-11ef-8047-0045e22171ca HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 127.0.0.1:5001
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:22:20] "[35m[1mGET /request_ply_from_engine?game_manager_uuid=8c0ffae9-083b-11ef-8047-0045e22171ca HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Nom\\Desktop\\blindfold-go-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:23:32] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:23:33] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:23:33] "GET /is_game_over?game_manager_uuid=bc02890d-083b-11ef-bac5-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:23:33] "GET /is_move?game_manager_uuid=bc02890d-083b-11ef-bac5-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:23:36] "GET /is_move?game_manager_uuid=bc02890d-083b-11ef-bac5-0045e22171ca&candidate_speech=C4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:23:36] "GET /play_move?game_manager_uuid=bc02890d-083b-11ef-bac5-0045e22171ca&move=C4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:23:36] "GET /is_game_over?game_manager_uuid=bc02890d-083b-11ef-bac5-0045e22171ca HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 127.0.0.1:5001
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:23:37] "[35m[1mGET /request_ply_from_engine?game_manager_uuid=bc02890d-083b-11ef-bac5-0045e22171ca HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Nom\\Desktop\\blindfold-go-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug: * Detected change in 'C:\\Users\\Nom\\Desktop\\blindfold-go-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:26:22] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:26:23] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:26:23] "GET /is_game_over?game_manager_uuid=21a5b029-083c-11ef-b473-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:26:23] "GET /is_move?game_manager_uuid=21a5b029-083c-11ef-b473-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:26:33] "GET /is_move?game_manager_uuid=21a5b029-083c-11ef-b473-0045e22171ca&candidate_speech=A1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:26:33] "GET /play_move?game_manager_uuid=21a5b029-083c-11ef-b473-0045e22171ca&move=A1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:26:33] "GET /is_game_over?game_manager_uuid=21a5b029-083c-11ef-b473-0045e22171ca HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5001 "GET /request_ply HTTP/1.1" 200 13
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:26:33] "GET /request_ply_from_engine?game_manager_uuid=21a5b029-083c-11ef-b473-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Nom\\Desktop\\blindfold-go-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:27:45] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:27:46] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:27:46] "GET /is_game_over?game_manager_uuid=5323ea2c-083c-11ef-a5c6-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:27:46] "GET /is_move?game_manager_uuid=5323ea2c-083c-11ef-a5c6-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:27:52] "GET /is_move?game_manager_uuid=5323ea2c-083c-11ef-a5c6-0045e22171ca&candidate_speech=A1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:27:52] "GET /play_move?game_manager_uuid=5323ea2c-083c-11ef-a5c6-0045e22171ca&move=A1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:27:52] "GET /is_game_over?game_manager_uuid=5323ea2c-083c-11ef-a5c6-0045e22171ca HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5001 "GET /request_ply?game=+1+%E2%80%89%E2%9A%AB+.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+2++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+3++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+4++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.%0A+5++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+6++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+7++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+8++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+9++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A10++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.%0A11++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A12++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A13++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A14++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A15++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A16++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.%0A17++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A18++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A19++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A++++A++B++C++D++E++F++G++H++J++K++L++M++N++O++P++Q++R++S++T HTTP/1.1" 200 13
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:27:52] "GET /request_ply_from_engine?game_manager_uuid=5323ea2c-083c-11ef-a5c6-0045e22171ca HTTP/1.1" 200 -
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:28:42] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:28:43] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:28:43] "GET /is_game_over?game_manager_uuid=74dc0c69-083c-11ef-8e13-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:28:43] "GET /is_move?game_manager_uuid=74dc0c69-083c-11ef-8e13-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:28:48] "GET /is_move?game_manager_uuid=74dc0c69-083c-11ef-8e13-0045e22171ca&candidate_speech=A1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:28:48] "GET /play_move?game_manager_uuid=74dc0c69-083c-11ef-8e13-0045e22171ca&move=A1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:28:48] "GET /is_game_over?game_manager_uuid=74dc0c69-083c-11ef-8e13-0045e22171ca HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5001 "GET /request_ply?game=+1+%E2%80%89%E2%9A%AB+.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+2++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+3++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+4++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.%0A+5++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+6++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+7++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+8++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+9++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A10++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.%0A11++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A12++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A13++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A14++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A15++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A16++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.%0A17++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A18++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A19++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A++++A++B++C++D++E++F++G++H++J++K++L++M++N++O++P++Q++R++S++T HTTP/1.1" 200 16
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:28:48] "GET /request_ply_from_engine?game_manager_uuid=74dc0c69-083c-11ef-8e13-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:28:48] "GET /is_game_over?game_manager_uuid=74dc0c69-083c-11ef-8e13-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:28:48] "GET /is_move?game_manager_uuid=74dc0c69-083c-11ef-8e13-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Nom\\Desktop\\blindfold-go-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug: * Detected change in 'C:\\Users\\Nom\\Desktop\\blindfold-go-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug: * Detected change in 'C:\\Users\\Nom\\Desktop\\blindfold-go-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug: * Detected change in 'C:\\Users\\Nom\\Desktop\\blindfold-go-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:22] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:22] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:22] "GET /is_game_over?game_manager_uuid=1b91fed5-083d-11ef-b894-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:22] "GET /is_move?game_manager_uuid=1b91fed5-083d-11ef-b894-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:25] "GET /is_move?game_manager_uuid=1b91fed5-083d-11ef-b894-0045e22171ca&candidate_speech=A1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:26] "GET /play_move?game_manager_uuid=1b91fed5-083d-11ef-b894-0045e22171ca&move=A1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:26] "GET /is_game_over?game_manager_uuid=1b91fed5-083d-11ef-b894-0045e22171ca HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5001 "GET /request_ply?game=+1+%E2%80%89%E2%9A%AB+.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+2++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+3++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+4++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.%0A+5++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+6++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+7++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+8++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+9++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A10++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.%0A11++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A12++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A13++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A14++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A15++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A16++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.%0A17++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A18++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A19++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A++++A++B++C++D++E++F++G++H++J++K++L++M++N++O++P++Q++R++S++T HTTP/1.1" 200 16
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:26] "[35m[1mGET /request_ply_from_engine?game_manager_uuid=1b91fed5-083d-11ef-b894-0045e22171ca HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:27] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:28] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:28] "GET /is_game_over?game_manager_uuid=1ea9b260-083d-11ef-8553-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:28] "GET /is_move?game_manager_uuid=1ea9b260-083d-11ef-8553-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Nom\\Desktop\\blindfold-go-backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:Running Urban Planning
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-844-246
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:50] "GET /create_game?size=19&handicap=6&komi=7.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:50] "[33mGET /is_blindfolded_player_black/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:50] "GET /is_game_over?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:50] "GET /is_move?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:57] "GET /is_move?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca&candidate_speech=A1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:57] "GET /play_move?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca&move=A1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:58] "GET /is_game_over?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5001 "GET /request_ply?game=+1+%E2%80%89%E2%9A%AB+.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+2++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+3++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+4++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.%0A+5++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+6++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+7++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+8++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+9++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A10++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.%0A11++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A12++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A13++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A14++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A15++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A16++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.%0A17++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A18++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A19++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A++++A++B++C++D++E++F++G++H++J++K++L++M++N++O++P++Q++R++S++T HTTP/1.1" 200 16
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:58] "GET /request_ply_from_engine?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:58] "GET /is_game_over?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:33:58] "GET /is_move?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:34:15] "GET /is_move?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca&candidate_speech=undo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:34:15] "GET /request_undo?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:34:15] "GET /is_game_over?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5001 "GET /request_ply?game=+1+%E2%80%89%E2%9A%AB+.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+2++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+3++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+4++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.%0A+5++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+6++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+7++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+8++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+9++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A10++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.%0A11++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A12++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A13++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A14++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A15++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A16++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.%0A17++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A18++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A19++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A++++A++B++C++D++E++F++G++H++J++K++L++M++N++O++P++Q++R++S++T HTTP/1.1" 200 16
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:34:15] "GET /request_ply_from_engine?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:34:15] "GET /is_game_over?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:34:15] "GET /is_move?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca&candidate_speech= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:34:31] "GET /is_move?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca&candidate_speech=undo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:34:31] "GET /request_undo?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:34:31] "GET /is_game_over?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5001
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5001 "GET /request_ply?game=+1+%E2%80%89%E2%9A%AB+.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+2++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+3++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+4++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.%0A+5++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+6++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+7++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+8++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A+9++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A10++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.%0A11++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A12++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A13++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A14++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A15++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A16++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.++.++.++%2A++.++.++.%0A17++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A18++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A19++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.++.%0A++++A++B++C++D++E++F++G++H++J++K++L++M++N++O++P++Q++R++S++T HTTP/1.1" 200 16
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:34:31] "GET /request_ply_from_engine?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:34:31] "GET /is_game_over?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/May/2024 06:34:31] "GET /is_move?game_manager_uuid=2c55411d-083d-11ef-adb4-0045e22171ca&candidate_speech= HTTP/1.1" 200 -

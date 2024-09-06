@@ -4,6 +4,9 @@
 import sys
 sys.path.append('./python_classes')
 
+
+from sente import sgf
+
 from PoolOfGameManagers import PoolOfGameManagers
 my_pool_of_game_managers=PoolOfGameManagers()
 
@@ -63,11 +66,19 @@ def is_game_over():
 
 @app.route('/request_ply_from_engine')
 def request_ply_from_engine():
-    game_uuid = request.args.get('game_uuid')
-    game = my_pool_of_game_managers.get_game(game_uuid)
-    r = requests.get("https://"+ply_picking_engine_ip+ply_picking_engine_port)
+    game_manager_uuid = request.args.get('game_manager_uuid')
+    game = my_pool_of_game_managers.get_game_manager(game_manager_uuid)['game_manager'].game
+    #r = requests.get("https://"+ply_picking_engine_ip+ply_picking_engine_port+"/request_ply", params={"game":game})
+    parameters={"game":game}
+    #parameters={}
+    r = requests.get(url="http://127.0.0.1:5001/request_ply", params=parameters)
+    
 
-    return r.json()["ply"]
+    my_pool_of_game_managers.get_game_manager(game_manager_uuid)['game_manager'].game.play(r.json()['result'])
+    print(my_pool_of_game_managers.get_game_manager(game_manager_uuid)['game_manager'].game)
+    sgf.dump(my_pool_of_game_managers.get_game_manager(game_manager_uuid)['game_manager'].game, "./games/my_game.sgf")
+    
+    return r.json()
     return {"ply":"Q16"}
 
 @app.route('/create_game')
